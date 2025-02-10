@@ -23,7 +23,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="C:\\Subhash\\Automation\\Auto_LD\\src\\test\\resources\\Features",glue={"StepDefs","Hooker"},plugin= {"html:Reports/cucumber-html-report"})
+@CucumberOptions(features="src\\test\\resources\\Features",glue={"StepDefs","Hooker"},plugin= {"html:Reports/cucumber-html-report"})
 public class TestRunner {
 	WebDriver driver;
 	ExtentTest logger;
